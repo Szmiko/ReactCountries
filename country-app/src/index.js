@@ -8,10 +8,10 @@ import { getCountries } from './actions/actions-countries.js';
 
 ReactDOM.render(
 	<Provider store={store}>
-	<div>
-		<h1>Inicjalizacja projektu</h1>
-		<DevTools />
-	</div>
+		<div>
+			<h1>Inicjalizacja projektu</h1>
+			<DevTools />
+		</div>
 	</Provider>
 	document.getElementById('root')
 );
